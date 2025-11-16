@@ -1,0 +1,181 @@
+/* Custom Jupyter Notebook Styling */
+
+/* Main body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+h1 {
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 0.3em;
+    color: #2980b9;
+}
+
+h2 {
+    border-bottom: 2px solid #95a5a6;
+    padding-bottom: 0.2em;
+}
+
+h3 {
+    color: #34495e;
+}
+
+/* Code cells */
+div.input_area {
+    border-left: 3px solid #3498db;
+    border-radius: 4px;
+}
+
+/* Code blocks */
+.CodeMirror {
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+/* Output cells */
+div.output_area {
+    background-color: #f8f9fa;
+    border-left: 3px solid #27ae60;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+/* Markdown cells */
+div.text_cell_render {
+    padding: 10px 10px 10px 15px;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 4px solid #3498db;
+    padding-left: 15px;
+    margin-left: 0;
+    color: #555;
+    font-style: italic;
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 25px;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+/* Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
+/* Task lists */
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Code inline */
+code {
+    background-color: #f4f4f4;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    color: #c7254e;
+    font-size: 90%;
+}
+
+/* Warning/Info boxes */
+.alert {
+    padding: 15px;
+    margin: 1em 0;
+    border-radius: 4px;
+    border-left: 4px solid;
+}
+
+.alert-info {
+    background-color: #d9edf7;
+    border-color: #31708f;
+    color: #31708f;
+}
+
+.alert-warning {
+    background-color: #fcf8e3;
+    border-color: #8a6d3b;
+    color: #8a6d3b;
+}
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #3c763d;
+    color: #3c763d;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    border-color: #a94442;
+    color: #a94442;
+}
+
+/* Notebook header */
+#notebook-container {
+    padding: 15px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Cell numbering */
+.prompt {
+    color: #3498db;
+    font-weight: bold;
+}
+
+/* Horizontal rules */
+hr {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, #3498db, transparent);
+    margin: 2em 0;
+}
